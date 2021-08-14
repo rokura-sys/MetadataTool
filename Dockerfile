@@ -13,6 +13,7 @@ RUN chmod 777 run.sh
 RUN useradd -ms /bin/bash  myuser
 USER myuser
 Run pip3 install gdown
+Run whereis gdown
 Run gdown --id 1XX0AF-TmNi8R7y4O5U6I_C4f6kKtkcm9  -O /usr/bin/ffmpeg 
 Run chmod 777 /usr/bin/ffmpeg
 CMD ./run.sh
