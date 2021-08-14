@@ -12,6 +12,5 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 RUN chmod 777 run.sh
 RUN useradd -ms /bin/bash  myuser
 USER myuser
-RUN wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1XX0AF-TmNi8R7y4O5U6I_C4f6kKtkcm9' -O /usr/bin/ffmpeg 
-RUN chmod 777 /usr/bin/ffmpeg
+RUN wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1XX0AF-TmNi8R7y4O5U6I_C4f6kKtkcm9' 
 CMD ./run.sh
