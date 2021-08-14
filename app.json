@@ -1,0 +1,22 @@
+{
+    "name": "MetadataTool",
+    "description": "A Normal Telegram Bot Which can do nothing",
+    "keywords": ["Telegram","python", "Nothing"],
+    "repository": "https://github.com/rokura-sys/MetadataTool",
+    "success_url": "https://t.me/RobCK",
+    "stack": "container",
+    "env": {
+        "APP_ID": {
+            "description": "You api id, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Make a bot from @BotFather, and enter it's api token here.",
+            "value": ""
+        }
+    }
+}
